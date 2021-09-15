@@ -1,9 +1,14 @@
 {
     "name": "sc-css-grid-system",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A simple css grid system built with styled-components",
     "main": "dist/index.js",
     "module": "dist/index.es.js",
+    "homepage": "https://optimistic-shannon-061c79.netlify.app/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/madeelahsan/sc-css-grid-system.git"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "storybook": "start-storybook -p 6006",
@@ -23,6 +28,7 @@
         "@storybook/addon-links": "^6.3.8",
         "@storybook/react": "^6.3.8",
         "babel-loader": "^8.2.2",
+        "chromatic": "^5.9.2",
         "prop-types": "^15.7.2",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
