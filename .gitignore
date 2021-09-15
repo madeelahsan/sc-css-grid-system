@@ -52,5 +52,5 @@ Thumbs.db
 /node_modules
 log.txt
 /out
-/storybook-static
-/.storybook
+storybook-static/
+.storybook/
