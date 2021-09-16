@@ -4,7 +4,7 @@
     "description": "A simple css grid system built with styled-components",
     "main": "dist/index.js",
     "module": "dist/index.es.js",
-    "homepage": "https://optimistic-shannon-061c79.netlify.app/",
+    "homepage": "https://github.com/madeelahsan/sc-css-grid-system.git",
     "repository": {
         "type": "git",
         "url": "https://github.com/madeelahsan/sc-css-grid-system.git"
