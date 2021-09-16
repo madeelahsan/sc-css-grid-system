@@ -73,7 +73,7 @@ import {Grid, GridCol} from 'sc-css-grid-system';
 
 function CssGridSystem() {
     return (
-        <Grid xs={2} lg={6} md={4} sm={3} xl={12} gap={30}>
+        <Grid xs={2} sm={3} md={4} lg={6} xl={12} gap={30}>
             <div>1</div>
             <div>2</div>
             <div>3</div>
