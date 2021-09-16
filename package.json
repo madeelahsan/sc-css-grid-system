@@ -1,6 +1,6 @@
 {
     "name": "sc-css-grid-system",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "A simple css grid system built with styled-components",
     "main": "dist/index.js",
     "module": "dist/index.es.js",
@@ -44,5 +44,14 @@
         "react-dom": "^17.0.2",
         "styled-components": "^5.3.1"
     },
+    "kerwords": [
+        "react",
+        "styled-components",
+        "grid",
+        "css-grid",
+        "responsive",
+        "grid-system",
+        "storybook"
+    ],
     "dependencies": {}
 }
