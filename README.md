@@ -120,6 +120,8 @@ render as:
 
 ![responsive-grid-gap](https://user-images.githubusercontent.com/21342152/137470855-dc73c1dc-d8cc-4a6b-9cba-b1299e6e0bc7.gif)
 
+[^1]: Breakpoints follows mobile first approach. Just like you would do in any other popular frameworks like boostrap.
+
 ---
 
 ## Grid Breakpoints
