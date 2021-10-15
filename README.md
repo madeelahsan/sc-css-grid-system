@@ -17,7 +17,7 @@ $ npm install sc-css-grid-system --save-dev
 ## Usage
 
 sc-css-grid-system utilizes the power of CSS grid and styled-components to easily create responsive grids.
-
+---
 ### For a simple 12 column layout:
 
 ```javascript
@@ -45,7 +45,7 @@ function CssGridSystem() {
 
 Render as:
 ![12 column layout](https://i.imgur.com/4bicY1T.png)
-
+---
 ### Grid column span:
 
 ```javascript
@@ -65,11 +65,11 @@ function CssGridSystem() {
 
 render as:
 ![col span example](https://i.imgur.com/YhY5SZ5.png)
-
+---
 ### Responsive Grid:
 
 ```javascript
-import {Grid, GridCol} from 'sc-css-grid-system';
+import {Grid} from 'sc-css-grid-system';
 
 function CssGridSystem() {
     return (
@@ -90,16 +90,35 @@ function CssGridSystem() {
     );
 }
 ```
+render as:
+![Hnet-image (1)](https://user-images.githubusercontent.com/21342152/133593532-e4ba26fd-19e9-4b14-a919-d6d23b39a1bb.gif)
+---
+### Responsive Grid Gap:
+
+```javascript
+import {Grid} from 'sc-css-grid-system';
+
+function CssGridSystem() {
+    return (
+        <Grid xs={4} gap={{xs: 10, sm: 25, md: 40, lg: 60, xl: 80}>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </Grid>
+    );
+}
+```
 
 render as:
 
-![Hnet-image (1)](https://user-images.githubusercontent.com/21342152/133593532-e4ba26fd-19e9-4b14-a919-d6d23b39a1bb.gif)
-
+![responsive-grid-gap](https://user-images.githubusercontent.com/21342152/137470855-dc73c1dc-d8cc-4a6b-9cba-b1299e6e0bc7.gif)
+---
 ## Grid Breakpoints
 
 | xs     | sm     | md     | lg     | xl      |
 | ------ | ------ | ------ | ------ | ------- |
-| <576px | ≥576px | ≥768px | ≥992px | ≥1200px |
+| Default | ≥576px | ≥768px | ≥992px | ≥1200px |
 
 ## Props
 
@@ -107,7 +126,7 @@ render as:
 
 | Name     | Type   | Description                                |
 | -------- | ------ | ------------------------------------------ |
-| xs       | number | numbers of columns when screen is <576px   |
+| xs       | number | default                                    |
 | sm       | number | numbers of columns when screen is >=576px  |
 | md       | number | numbers of columns when screen is >=768px  |
 | lg       | number | numbers of columns when screen is >=992px  |
@@ -121,7 +140,7 @@ render as:
 
 | Name | Type   | Description                                            |
 | ---- | ------ | ------------------------------------------------------ |
-| xs   | number | make an element span n columns when screen is <576px   |
+| xs   | number | default                                                |
 | sm   | number | make an element span n columns when screen is >=576px  |
 | md   | number | make an element span n columns when screen is >=768px  |
 | lg   | number | make an element span n columns when screen is >=992px  |
