@@ -141,7 +141,7 @@ render as:
 | md       | number | numbers of columns when screen is >=768px  |
 | lg       | number | numbers of columns when screen is >=992px  |
 | xl       | number | numbers of columns when screen is >=1200px |
-| gap      | number | gap/gutter between grid rows and columns   |
+| gap      | number || object | gap/gutter between grid rows and columns   |
 | rowGap   | number | gap/gutter between grid rows               |
 | colGap   | number | gap/gutter between grid columns            |
 | colWidth | number | minimum column width                       |
