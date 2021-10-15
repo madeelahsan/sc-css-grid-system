@@ -51,7 +51,11 @@
         "css-grid",
         "responsive",
         "grid-system",
-        "storybook"
+        "storybook",
+        "css-in-js",
+        "styling",
+        "css",
+        "grid"
     ],
     "dependencies": {}
 }
