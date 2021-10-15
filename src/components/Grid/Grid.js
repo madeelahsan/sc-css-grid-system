@@ -8,7 +8,7 @@ const propTypes = {
     md: PropTypes.number,
     lg: PropTypes.number,
     xl: PropTypes.number,
-    gap: PropTypes.number,
+    gap: PropTypes.oneOfType([PropTypes.number, PropTypes.object]),
     rowGap: PropTypes.number,
     colGap: PropTypes.number,
     colWidth: PropTypes.number,

@@ -67,3 +67,9 @@ ColWidth.args = {
     gap: 30,
     colWidth: 500,
 };
+
+export const ResponsiveGap = Template.bind({});
+ResponsiveGap.args = {
+    xs: 4,
+    gap: {xs: 10, sm: 25, md: 40, lg: 60, xl: 80},
+};
