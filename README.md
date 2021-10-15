@@ -122,7 +122,7 @@ render as:
 
 ---
 
-### ****Breakpoints follows mobile first approach. Just like you would do in any other popular frameworks like boostrap. *****
+### ****Breakpoints follows mobile first approach. Just like you would do in any other popular frameworks. *****
 
 ## Grid Breakpoints
 
