@@ -67,8 +67,9 @@ function CssGridSystem() {
 
 render as:
 ![col span example](https://i.imgur.com/YhY5SZ5.png)
+
 ---
----
+
 ### Responsive Grid:
 
 ```javascript
@@ -95,8 +96,9 @@ function CssGridSystem() {
 ```
 render as:
 ![Hnet-image (1)](https://user-images.githubusercontent.com/21342152/133593532-e4ba26fd-19e9-4b14-a919-d6d23b39a1bb.gif)
+
 ---
----
+
 ### Responsive Grid Gap:
 
 ```javascript
@@ -117,8 +119,9 @@ function CssGridSystem() {
 render as:
 
 ![responsive-grid-gap](https://user-images.githubusercontent.com/21342152/137470855-dc73c1dc-d8cc-4a6b-9cba-b1299e6e0bc7.gif)
+
 ---
----
+
 ## Grid Breakpoints
 
 | xs     | sm     | md     | lg     | xl      |
