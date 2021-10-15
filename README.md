@@ -17,7 +17,7 @@ $ npm install sc-css-grid-system --save-dev
 ## Usage
 
 sc-css-grid-system utilizes the power of CSS grid and styled-components to easily create responsive grids.
----
+
 ---
 ### For a simple 12 column layout:
 
