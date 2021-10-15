@@ -46,7 +46,7 @@ function CssGridSystem() {
 
 Render as:
 ![12 column layout](https://i.imgur.com/4bicY1T.png)
----
+
 ---
 ### Grid column span:
 
